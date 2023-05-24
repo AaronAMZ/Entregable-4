@@ -1,0 +1,73 @@
+ul {
+    list-style: none;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+    padding: 20px 60px 20px 60px;
+    
+}
+.user-card {
+    background-color: beige;
+    gap: 1rem;
+    border-radius: 5px;
+}
+.user-card:hover {
+    box-shadow: 0px 0px 50px cyan;
+}
+.contain-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 30px;
+    padding: 0;
+}
+.contain-card h2 {
+    color: midnightblue;
+    font-size: 30px;
+}
+.contain-card h3 {
+    color: lightslategray;
+}
+.contain-card p {
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+.buttons {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1.6rem;
+}
+.buttons button:hover {
+    transform: scale(1.1);
+}
+.delete {
+    width: 30px;
+    height: 30px;
+    background-color: tomato;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    border-style: solid;
+    border-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 5px;
+    color: ;
+    cursor: pointer;
+    font-size: 22px;
+    border-style: solid;
+    border-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

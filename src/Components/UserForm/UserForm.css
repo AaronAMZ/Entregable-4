@@ -1,0 +1,40 @@
+.user-form {
+    position: relative;
+    background-color: #ffffff;
+    width: 80vw;
+    max-width: 42rem;
+    padding: 3.2rem 3.2rem 3.8rem;
+}
+.user-form_title {
+    margin: 0;
+}
+.user-form_close-btn {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.user-form_inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+.user-form_input-container {
+    display: flex;
+    flex-direction: column;
+}
+.user-form_submit {
+    border: none;
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+    background-color: #555a88;
+    color: white;
+    width: 100%;
+    padding: 1.5rem 0;
+    margin: 4.8rem auto 0;
+    cursor: pointer;
+}
