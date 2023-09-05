@@ -4,7 +4,6 @@ import Header from './Components/Header/Header'
 import UserList from './Components/UserList/UserList';
 import Modal from './Components/Modal/Modal';
 
-import {useForm} from 'react-hook-form'
 import UserForm from './Components/UserForm/UserForm';
 import { getAllUsers } from './services/getAllUser';
 import { createUser } from './services/createUser';
